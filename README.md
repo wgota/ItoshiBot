@@ -4,11 +4,11 @@
 # Itoshi Bot
 #### Bot de Discord com sistemas para MTA.
 
-- Possuimos compatibilidade com as seguintes data base: MongoDB, MYSQL.
+- Compatibilidade com: MongoDB e MYSQL.
  
  - Nossos comandos:
  
-     ・WhiteList(Necessário ter banco de dados em MySQL);
+    ・WhiteList(Necessário ter banco de dados em MySQL);
   
     ・Sugestão;
   
