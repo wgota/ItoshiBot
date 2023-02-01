@@ -1,4 +1,5 @@
 const { Events } = require('discord.js');
+const { ownerId } = require('../../config.json');
 
 module.exports = {
 	name: Events.InteractionCreate,
@@ -9,7 +10,7 @@ module.exports = {
     
         if (!command) return;
 
-        if(command.developer && interaction.user.id !== "665589500860301315") return;
+        if(command.developer && interaction.user.id !== ownerId) return;
     
         try {
             await command.execute(interaction);
