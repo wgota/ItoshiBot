@@ -8,7 +8,7 @@ module.exports = {
         .setDMPermission(false)
         .addUserOption(op => op.setName("user").setDescription("Escolha o usuário.")),
     async execute (interaction) {
-        const member = interaction.options.getMember("member") || interaction.member;
+        const member = await interaction.options.getMember("member") || interaction.member;
         let embed = new interaction.client.embed(`${member.nickname ? member.nickname : member.user.username}`)
             embed.addFields(
                 { name: `\`📋\` ID`, value: `\`${member.id}\``, inline: true },
