@@ -1,7 +1,7 @@
 const Database = require('./Database');
-const channel = require('./models/channelModel');
+const config = require('./models/configModel');
 
 module.exports = {
     Database,
-    channelModel: channel
+    configModel: config
 };

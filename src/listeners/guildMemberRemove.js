@@ -4,13 +4,13 @@ const moment = require('moment');
 module.exports = {
 	name: Events.GuildMemberRemove,
 	async execute(member) {
-		let db = await member.client.database.channelModel.findOne({ serverId: member.guild.id });
+		let db = await member.client.database.configModel.findOne({ serverId: member.guild.id });
 		if(!db){
-			await member.client.database.channelModel({
+			await member.client.database.configModel({
 				serverId: member.guild.id
 			}).save();
 		}
-		db = await member.client.database.channelModel.findOne({ serverId: member.guild.id });
+		db = await member.client.database.configModel.findOne({ serverId: member.guild.id });
 		if(db.channelLogs !== null){
 			if(!member.guild.channels.cache.get(db.channelLogs)) return;
 			member.guild.channels.cache.get(db.channelLogs).send({
