@@ -11,7 +11,6 @@
     ・WhiteList (Necessário ter banco de dados em MySQL);
   
     ・Sugestão;
-  
 
     ・Log de mensagem e calls;
   
