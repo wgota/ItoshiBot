@@ -27,7 +27,7 @@
 ### Instalando pacotes
 > Se você não tiver node instalado, [clique aqui](https://nodejs.org/en/).
 ```
-npm install
+npm i
 ```
 
 > Crie um arquivo com o nome `config.json` e complete as informações como o modelo abaixo
