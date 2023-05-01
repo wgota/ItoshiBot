@@ -24,7 +24,7 @@
 
 
 ## Configurações
-### Instalando pacotes
+### Instalando os pacotes
 > Se você não tiver node instalado, [clique aqui](https://nodejs.org/en/).
 ```
 npm install
