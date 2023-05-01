@@ -12,7 +12,6 @@
   
     ・Sugestão;
   
-    ・Sistema da polícia;
 
     ・Log de mensagem e calls;
   
