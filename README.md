@@ -8,7 +8,7 @@
  
  - Nossos comandos:
  
-    ・WhiteList (Necessário ter banco de dados em MySQL);
+    ・WhiteList (Necessário ter banco de dados em MySQL) [Em breve...];
   
     ・Sugestão;
 
